@@ -171,8 +171,7 @@ MIT License
 
 ## 🙏 致谢
 
-- 灵感来自 [Claude Code](https://github.com/anthropics/claude-code)
-- 使用 [kiro.rs](http://140.245.45.173:8990) API
+灵感来自 [Claude Code](https://github.com/anthropics/claude-code)
 
 ---
 
