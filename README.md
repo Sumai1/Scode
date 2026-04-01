@@ -148,7 +148,7 @@ You: /unload
 ```toml
 [api]
 api_key = "your-api-key"
-base_url = "http://140.245.45.173:8990"
+base_url = "https://api.anthropic.com"
 model = "claude-sonnet-4-5-20250929"
 
 [agent]

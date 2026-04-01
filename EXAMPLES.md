@@ -5,8 +5,8 @@
 ### 1. 使用你的 kiro.rs 端点
 
 ```bash
-export ANTHROPIC_API_KEY="sk-kiro-rs-CiQ4a7JD7on7C5qYovuPxg6i"
-export ANTHROPIC_BASE_URL="http://140.245.45.173:8990"
+export ANTHROPIC_API_KEY="your-api-key-here"
+export ANTHROPIC_BASE_URL="https://api.anthropic.com"
 
 ./target/release/scode
 ```
@@ -141,8 +141,8 @@ cargo build --release
 ### API 连接失败
 ```bash
 # 检查端点是否可访问
-curl http://140.245.45.173:8990/v1/models \
-  -H "x-api-key: sk-kiro-rs-CiQ4a7JD7on7C5qYovuPxg6i"
+curl https://api.anthropic.com/v1/models \
+  -H "x-api-key: your-api-key-here"
 
 # 确保环境变量正确
 echo $ANTHROPIC_API_KEY
