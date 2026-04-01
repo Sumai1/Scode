@@ -161,17 +161,6 @@ show_tokens = true
 show_progress = true
 ```
 
-## 📖 文档
-
-- [快速开始](QUICKSTART.md)
-- [Skill 系统](SKILL_SYSTEM.md)
-- [Skill 安装](SKILL_INSTALL.md)
-- [版本历史](CHANGELOG.md)
-
-## 📝 更新日志
-
-查看完整的版本历史和更新内容，请访问 [CHANGELOG.md](CHANGELOG.md)。
-
 ## 🤝 贡献
 
 欢迎贡献！请随时提交 Pull Request。
@@ -184,11 +173,6 @@ MIT License
 
 - 灵感来自 [Claude Code](https://github.com/anthropics/claude-code)
 - 使用 [kiro.rs](http://140.245.45.173:8990) API
-
-## 📞 联系
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Issues: [GitHub Issues](https://github.com/yourusername/scode/issues)
 
 ---
 
