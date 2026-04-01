@@ -2,7 +2,7 @@
 
 [![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.6.1-green.svg)](https://github.com/yourusername/scode)
+[![Version](https://img.shields.io/badge/version-0.6.1-green.svg)](https://github.com/Sumai1/Scode)
 
 一个用 Rust 构建的 AI 代码助手，灵感来自 Claude Code。
 
@@ -29,20 +29,44 @@
 
 **用 0.7% 的代码实现了 87% 的功能！**
 
-## 🚀 快速开始
+## 🚀 安装方式
 
-### 安装
+### 推荐方式（最简单）
 
 ```bash
-# 克隆仓库
-git clone https://github.com/yourusername/scode.git
-cd scode
+# 一键安装（推荐）
+curl -sSL https://raw.githubusercontent.com/Sumai1/Scode/master/install.sh | bash
+```
 
-# 编译
-cargo build --release
+安装完成后，**直接输入** `scode` 即可启动。
 
-# 运行
-./target/release/scode
+---
+
+### 其他安装方式
+
+**方式二：手动安装**
+```bash
+git clone https://github.com/Sumai1/Scode.git
+cd Scode
+chmod +x install.sh
+./install.sh
+```
+
+**方式三：使用 Cargo 安装**
+```bash
+cargo install --git https://github.com/Sumai1/Scode.git
+```
+
+---
+
+### 使用
+
+```bash
+# 启动 Scode
+scode
+
+# 查看帮助
+scode --help
 ```
 
 ### 使用
