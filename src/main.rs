@@ -12,18 +12,18 @@ use config::Config;
 #[derive(Parser)]
 #[command(name = "scode")]
 #[command(about = "Scode - AI Code Agent", long_about = None)]
-#[command(version = "0.5.0")]
+#[command(version = "0.6.1")]
 struct Cli {
     /// Prompt to send to the agent
     #[arg(short, long)]
     prompt: Option<String>,
 
-    /// API key (or set ANTHROPIC_API_KEY env var)
-    #[arg(long, env = "ANTHROPIC_API_KEY")]
+    /// API key (or set SCODE_API_KEY env var)
+    #[arg(long, env = "SCODE_API_KEY")]
     api_key: Option<String>,
 
-    /// Base URL (or set ANTHROPIC_BASE_URL env var)
-    #[arg(long, env = "ANTHROPIC_BASE_URL")]
+    /// Base URL (or set SCODE_BASE_URL env var)
+    #[arg(long, env = "SCODE_BASE_URL")]
     base_url: Option<String>,
 
     /// Model to use

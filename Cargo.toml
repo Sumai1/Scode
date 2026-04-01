@@ -1,9 +1,14 @@
 [package]
 name = "scode"
-version = "0.1.0"
+version = "0.6.1"
 edition = "2021"
-authors = ["Your Name"]
-description = "A Rust-based AI code agent inspired by Claude Code"
+authors = ["Sumai1"]
+description = "Scode - A lightweight Rust AI Code Agent inspired by Claude Code. 22 tools, skill system, and sub-agent support with only 0.7% of Claude Code's codebase."
+license = "MIT"
+repository = "https://github.com/Sumai1/Scode"
+homepage = "https://github.com/Sumai1/Scode"
+keywords = ["ai", "agent", "rust", "claude", "coding-assistant"]
+categories = ["command-line-utilities", "development-tools"]
 
 [[bin]]
 name = "scode"
@@ -34,7 +39,7 @@ anyhow = "1.0"
 thiserror = "1.0"
 
 # File operations
-tokio-fs = "0.1"
+# tokio::fs is used directly (tokio-fs is deprecated)
 glob = "0.3"
 walkdir = "2.5"
 
